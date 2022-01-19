@@ -1,7 +1,7 @@
 # Design-Patterns
 Repo to take notes on and practice design patterns
 ---
-*Game Programming Patterns by Robert Nystrom notes (GPP)*
+*[Game Programming Patterns by Robert Nystrom notes (GPP)](https://gameprogrammingpatterns.com/)*
 - Good software architecture is designed to expect change
 - A design is good if it can easily accomodate change
 - The cycle of changing code: 
@@ -26,3 +26,11 @@ Tools for Clean Code:
 - software architecture
 
 Flexibile software architecture is one that makes few assumptions in the program
+
+---
+
+Code Smells: indications of bad code
+*[notes based on Code Smells, Refactoring Guru](https://refactoring.guru/refactoring/smells)*
+- Bloaters: section of code that increasing over time to size past recommended:
+  - method / function: around 10+ lines, start to worry.
+  - classes: should have as little responsibilities as possible
